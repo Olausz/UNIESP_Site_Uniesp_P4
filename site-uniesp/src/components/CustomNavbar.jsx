@@ -41,12 +41,13 @@ const CustomNavbar = () => {
           </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="flex-column">
-              {/* Cada item de menu fecha o offcanvas*/}
+
+                {/* Cada item de menu fecha o offcanvas*/}
 
                 <Nav.Link as={Link} to="/a-faculdade" onClick={handleClose}> A faculdade </Nav.Link>
-                        <Nav.Link as={Link} to="/dpo-lgpd" onClick={handleClose}> DPO LGPD </Nav.Link>
-                        <Nav.Link as={Link} to="/noticias" onClick={handleClose}> Notícias </Nav.Link>
-                        <Nav.Link as={Link} to="/admin-noticias"onClick={handleClose}> Noticias do adm </Nav.Link>
+                <Nav.Link as={Link} to="/dpo-lgpd" onClick={handleClose}> DPO LGPD </Nav.Link>
+                <Nav.Link as={Link} to="/noticias" onClick={handleClose}> Notícias </Nav.Link>
+                <Nav.Link as={Link} to="/admin-noticias"onClick={handleClose}> Noticias do adm </Nav.Link>
 
               </Nav>
             </Offcanvas.Body>
