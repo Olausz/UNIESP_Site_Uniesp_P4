@@ -24,7 +24,7 @@ const Noticias = () => {
           <Card className="h-100 shadow-sm ">
              <Card.Img   
                 variant="top"
-                  src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc"
+                  src="https://blog.saninternet.com/wp-content/uploads/2024/04/inteligencia-artificial.png"
                   alt="Imagem da Noticia"
                   style={{ objectFit: 'cover', height: '140 px'}}
                />
