@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, Row, Col, Carousel } from 'React-bootstrap'
+import { Container, Card, Row, Col, Carousel } from 'react-bootstrap'
 
 const BannerAd = () => {
   return (

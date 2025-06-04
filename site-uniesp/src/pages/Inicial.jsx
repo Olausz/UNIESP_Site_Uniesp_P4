@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Card, Row, Col, CardBody, CardTitle, CardImg } from 'React-bootstrap'
+import { Container, Card, Row, Col, CardBody, CardTitle, CardImg } from 'react-bootstrap'
 import BannerAd from '../components/BannerAd'
 
 const Inicial = () => {
@@ -7,8 +7,7 @@ const Inicial = () => {
     <Container className="py-4">
       
       {/*Aqui será o carousel*/}
-      <BannerAd/>
-
+  
       <Card className="mb-4 shadow-sm">
         <Card.Body>
                 <p>
