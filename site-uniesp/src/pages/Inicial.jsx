@@ -5,9 +5,8 @@ import BannerAd from '../components/BannerAd'
 const Inicial = () => {
   return (
     <Container className="py-4">
-      
       {/*Aqui será o carousel*/}
-  
+      <BannerAd/>
       <Card className="mb-4 shadow-sm">
         <Card.Body>
                 <p>
